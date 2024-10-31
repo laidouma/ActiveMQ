@@ -43,6 +43,8 @@
    - **Ports d'intérêt** :
      - **8161** (pour la console Web ActiveMQ)
 
+![image](https://github.com/user-attachments/assets/49432dad-490a-48c9-b75f-e277eca6a155)
+
 ---
 
 ## Accéder à la console ActiveMQ
@@ -59,9 +61,13 @@ Après avoir identifié l’adresse IP et les ports ouverts, accédez à l’int
 - La **version d’ActiveMQ** peut être confirmée sur le tableau de bord principal après connexion. Dans ce cas :
    - **Version** : `5.11.1`
 
+![image](https://github.com/user-attachments/assets/6300e7ce-e65e-44b9-8863-4d216855a9c9)
+
 ---
 
 ## Vulnérabilité CVE : CVE-2015-1830
+
+![image](https://github.com/user-attachments/assets/f64dcd7c-b2d5-48f5-b3f7-de13290ad4c1)
 
 ### Détails de la vulnérabilité
 - **Description** : Une vulnérabilité de type "traversée de répertoire" dans la fonctionnalité de téléchargement/téléversement de fichiers pour les messages blob dans ActiveMQ (versions 5.x avant 5.11.2) sur Windows permet aux attaquants distants de créer des fichiers JSP dans des répertoires arbitraires.
@@ -83,9 +89,5 @@ Pour atténuer cette vulnérabilité :
 2. **Sécurité réseau** : Restreignez l’accès à la console de gestion ActiveMQ en appliquant des règles de réseau ou des configurations de pare-feu.
 3. **Contrôle d’accès** : Utilisez des mots de passe forts pour la console d'administration ActiveMQ et évitez les identifiants par défaut.
 
----
-
-Cette configuration et analyse de sécurité fournit un guide pour la mise en place et le scan de l’environnement ActiveMQ 2015, ainsi qu'une compréhension des implications des vulnérabilités spécifiques. Ce document peut être ajouté en tant que fichier README dans votre dépôt GitHub.
-```
 
 ---
