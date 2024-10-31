@@ -1,7 +1,7 @@
 
 ## Configuration de l'environnement ActiveMQ 2015
 
-** Résumé des commandes**
+**Résumé des commandes**
 1. **Naviguer vers le dossier `activemq_2015`** 
    ```bash
    cd activemq_2015
@@ -74,6 +74,8 @@ Après avoir identifié l’adresse IP et les ports ouverts, accédez à l’int
 - **Impact** : Les attaquants peuvent potentiellement exécuter du code malveillant en créant des fichiers dans des répertoires non sécurisés.
 - **Score CVSS** : 5.0 (Moyen)
 
+---
+
 ### Stratégie d’exploitation
 
 1. **Objectif** : Exploiter la vulnérabilité de traversée de répertoire pour obtenir un accès non autorisé ou exécuter du code arbitraire.
@@ -81,12 +83,13 @@ Après avoir identifié l’adresse IP et les ports ouverts, accédez à l’int
    - Exploiter la fonctionnalité de téléversement de messages blob pour placer des fichiers JSP malveillants dans des répertoires sensibles.
    - Utiliser des requêtes spécialement conçues pour manipuler les chemins de fichiers et éventuellement exécuter du code à distance sur des systèmes Windows vulnérables avec ActiveMQ en version inférieure à 5.11.2.
 
-# Stratégie de Compromission 
+---
 
-## Code d'exploitation Metasploit pour Active MQ 
+# Stratégie de Compromission
 
-'''ruby 
-##
+## Code d'exploitation Metasploit pour ActiveMQ
+
+```ruby
 # This module requires Metasploit: https://metasploit.com/download
 # Current source: https://github.com/rapid7/metasploit-framework
 ##
@@ -215,7 +218,7 @@ class MetasploitModule < Msf::Exploit::Remote
     end
   end
 end
-            
+          
 ---
 
 ## Mesures de sécurité
