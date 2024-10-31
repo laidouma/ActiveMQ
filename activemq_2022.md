@@ -1,6 +1,3 @@
-Voici le fichier mis à jour pour la configuration d'ActiveMQ 2022, avec l'adresse IP `172.20.0.1`, la version `5.17.3`, et la vulnérabilité CVE-2022-29582 :
-
-```markdown
 # Configuration de l'environnement ActiveMQ 2022
 
 ## Résumé des commandes
