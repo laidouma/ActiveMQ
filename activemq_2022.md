@@ -87,8 +87,6 @@ Après avoir identifié l’adresse IP et les ports ouverts, accédez à l’int
 
 # Stratégie de Compromission
 
-## Code d'exploitation Metasploit pour ActiveMQ
-
 ```ruby
 https://github.com/torvalds/linux/commit/e677edbcabee849bfdd43f1602bccbecf736a646
 ```
