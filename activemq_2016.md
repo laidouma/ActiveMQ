@@ -86,8 +86,6 @@ Après avoir identifié l’adresse IP et les ports ouverts, accédez à l’int
 
 # Stratégie de Compromission
 
-## Code d'exploitation Metasploit pour ActiveMQ
-
 ```ruby
 CVE-2016-0782: ActiveMQ Web Console - Cross-Site Scripting
 
