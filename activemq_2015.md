@@ -1,10 +1,8 @@
-Voici le texte formaté en Markdown (`README.md`) pour GitHub :
 
-```markdown
-# Configuration de l'environnement ActiveMQ 2015
+## Configuration de l'environnement ActiveMQ 2015
 
-## Résumé des commandes
-1. **Naviguer vers le dossier `activemq_2015`**  
+** Résumé des commandes**
+1. **Naviguer vers le dossier `activemq_2015`** 
    ```bash
    cd activemq_2015
    ```
