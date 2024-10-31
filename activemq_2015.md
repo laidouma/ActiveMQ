@@ -218,15 +218,5 @@ class MetasploitModule < Msf::Exploit::Remote
     end
   end
 end
-          
----
-
-## Mesures de sécurité
-
-Pour atténuer cette vulnérabilité :
-1. **Mettre à jour ActiveMQ** : Assurez-vous qu’ActiveMQ est mis à jour vers la version 5.11.2 ou une version plus récente pour éviter l’exposition à la CVE-2015-1830.
-2. **Sécurité réseau** : Restreignez l’accès à la console de gestion ActiveMQ en appliquant des règles de réseau ou des configurations de pare-feu.
-3. **Contrôle d’accès** : Utilisez des mots de passe forts pour la console d'administration ActiveMQ et évitez les identifiants par défaut.
-
 
 ---
